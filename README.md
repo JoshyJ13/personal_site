@@ -8,3 +8,6 @@ This is the personal website created by Joshua Foster to display technical skill
 * HTML
 * CSS (Bootstrap)
 * Next.js
+
+### Development Environment
+This website was developed on a Macbook Pro using Visual Studio Code.
