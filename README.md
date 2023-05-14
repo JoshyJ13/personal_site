@@ -1,10 +1,10 @@
-# personal_site
+# Personal Website
 This is the personal website created by Joshua Foster to display technical skills acquired in cybersecurity and web development. 
 
-Prior knowledge for building this website:
-    * Basic knowledge in HTML, CSS, and JavaScript
+### Prior knowledge for building this website:
+* Basic knowledge in HTML, CSS, and JavaScript
 
-Tools and Languages used to build this website:
-    * HTML
-    * CSS (Bootstrap)
-    * Next.js
+### Tools and Languages used to build this website:
+* HTML
+* CSS (Bootstrap)
+* Next.js
