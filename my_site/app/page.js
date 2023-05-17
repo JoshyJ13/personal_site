@@ -1,18 +1,28 @@
-import Image from 'next/image'
+import React from 'react';
+import Image from 'next/image';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className='relative flex w-full'>
-        <h1 className='text-4xl start-0'>
-          Joshua Foster
-        </h1>
+    <main className="flex min-h-screen flex-col w-auto items-front justify-between p-24 bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black ">
+      
+      <Image
+        src="/moon1.png"
+        alt="Moon"
+        width={300}
+        height={300}
+        className="absolute top-0 left-0 -ml-20 -mt-20"
+      />
+
+      <div className='flex flex-col w-1/3  inline-block rounded-lg border border-transparent px-5 py-4 justify-items-start bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black opacity-80'>
+        <h1 className='text-3xl mb-1 font-bold start-0 w-auto'>Joshua Foster</h1>
+        <h2 className='text-1xl start-0'>Graduate Student</h2>
+        <h3 className='text-1xl'>Computer Science & Cybersecurity</h3>
       </div>
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="mb-32 grid gap-x-4 text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
           href=""
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 py-4 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -29,7 +39,7 @@ export default function Home() {
 
         <a
           href=""
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
+          className="group rounded-lg border border-transparent px-5 py-4 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -46,7 +56,7 @@ export default function Home() {
 
         <a
           href=""
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 py-4 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -64,7 +74,7 @@ export default function Home() {
         
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          className="group rounded-lg border border-transparent px-5 py-4 bg-[radial-gradient(ellipse_at_bottom_right,_var(--tw-gradient-stops))] from-gray-700 via-gray-900 to-black"
           target="_blank"
           rel="noopener noreferrer"
         >
